@@ -1,0 +1,159 @@
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+.club-details-root {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.title-info-container {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.badge {
+    width: 8rem;
+    height: 8rem;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 3rem;
+    color: #E2E2E2;
+    flex-grow: 1;
+}
+
+.verified-check {
+    width: 8rem;
+    height: 8rem;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.founded-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-info-label {
+    font-size: 2rem;
+    color: #F1DBFF;
+}
+
+.details-info-label-enlarged {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #F1DBFF;
+}
+
+.leagues-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.leagues-subcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.league-badge {
+    width: 3rem;
+    height: 3rem;
+}
+
+.league-hover-info {
+
+}
+
+.tryouts-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.accomplishments-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.accomplishments-subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-info-bullet {
+    color: #5E5E5E;
+}
+
+.accomplishment-text {
+    color: #5E5E5E;
+}
+
+.details-divider {
+    height: 80%;
+    width: 2rem;
+}
+
+.details-contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-contact-title {
+    color: whitesmoke;
+}
+
+.details-contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-contact-label {
+    color: #C7DDFD
+}
+
+.reviews-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-title {
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.add-review-button {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    color: #FFE0E0;
+    font-weight: 600;
+}
+
+.review-divider {
+    width: 8rem;
+    height: 2rem;
+}

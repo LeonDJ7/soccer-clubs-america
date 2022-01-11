@@ -1,0 +1,22 @@
+.logo {
+    width: 48px;
+    height: 48px;
+}
+
+.club-map-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.search-bar {
+    width: 16rem;
+    height: 2rem;
+    background-color: #F1DBFF;
+    font-weight: 700;
+}
+
+.map {
+
+}
