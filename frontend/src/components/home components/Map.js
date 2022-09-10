@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import AutoSizer from 'react-virtualized-auto-sizer'
 import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
 import 'mapbox-gl/dist/mapbox-gl.css';
 mapboxgl.accessToken = 'pk.eyJ1IjoibGRqdXNiZXJnIiwiYSI6ImNsN2dzdm56MzA3b3Mzdm1oYTU4dW05M24ifQ.id0Pu9ofg2z-5jZ9lsUAig';
@@ -23,15 +24,19 @@ const Map = (props) => {
       zoom: zoom
     });
 
-    map.on('style.load', () => {
-      map.setFog({}); // Set the default atmosphere style
+    map.current.on('style.load', () => {
+      map.current.setFog({}); // Set the default atmosphere style
     });
 
-  }, [])
+  })
 
   return (
     <span className='map-root'>
-      <span className='map-container' ref={mapContainer} />
+      <AutoSizer>
+        {({ height, width }) => (
+          <span className='map-container' ref={mapContainer} style={{width: width, height: height}}/>
+        )}
+      </AutoSizer>
     </span>
   )
 }

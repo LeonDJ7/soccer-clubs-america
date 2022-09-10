@@ -1,12 +1,14 @@
 import { DataContextProvider } from './contexts/DataContext';
-import HomePage from './pages/Home';
+import Main from './Main';
 import './styles.css';
 
 function App() {
   return (
-    <DataContextProvider>
-      <HomePage />
-    </DataContextProvider>
+    <div className='app'>
+      <DataContextProvider>
+        <Main />
+      </DataContextProvider>
+    </div>
   );
 }
 
