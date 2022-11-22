@@ -17,12 +17,6 @@ html, body {
   width: 100%;
 }
 
-.home-root {
-  display: flex;
-  min-height: 100vh;
-  min-width: 100vw;
-}
-
 .map-root {
   display: flex;
   width: 100%;

@@ -5,7 +5,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 mapboxgl.accessToken = 'pk.eyJ1IjoibGRqdXNiZXJnIiwiYSI6ImNsN2dzdm56MzA3b3Mzdm1oYTU4dW05M24ifQ.id0Pu9ofg2z-5jZ9lsUAig';
 
 
-const Map = (props) => {
+const CustomMap = (props) => {
 
   const mapContainer = useRef(null);
   const map = useRef(null);
@@ -41,4 +41,4 @@ const Map = (props) => {
   )
 }
 
-export default Map
+export default CustomMap
